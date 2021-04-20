@@ -2,7 +2,6 @@ h1 {
   color: rgb(0, 0, 0);
   text-align: center;
 }
-
 h2{
     
     text-align: center;
@@ -18,22 +17,17 @@ h4{
 img {
   border-radius: 50px 50px 50px 50px;
   border: solid 3px black;
-  margin: 10px;
+  text-align: center;
+  justify-content:center;
 }
 video{
   border-radius: 50px 50px 50px 50px;
   border: solid 3px black;
   align-items: center;
-  margin: 10px;
-}
-iframe{
-    border-radius: 50px 50px 50px 50px;
-    border: solid 3px black;
-    align-items: center;
-    margin: 10px;
 }
 .ul1{
   list-style-type: none;
+  margin: ;
   padding: 0;
 }
 ul{
@@ -44,7 +38,7 @@ li {
   margin: 10px;
 }
 
-
+}
 .column {
     float: center;
     width: 33.3%;
@@ -66,101 +60,61 @@ li {
 }
 .container {
   padding: 2px 16px;
-  text-align: center;
 }
 .center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-  }
-
-.center1 {
-  margin: auto;
-  padding: auto;
-  width: 250px;
-} 
-div.a{
-    display: flex;
-    text-align: center;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
+    align-items: center;
+    
+  }
+div.a{
+    text-align: center;
 }
-.intro{
-  padding: 25px;
-  margin: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: left;
-  
-  font-stretch: expanded;
+div.b{
+    text-align: center;
+    font-size: 22px;
 }
-.intro1{
-  padding: 25px;
-  margin: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  
-}
-
 .flex-container1{
     display:flex;
     justify-content: space-between;
-    text-align: center;
+    text-align: center
     
-    
-    background-color: rgb(68, 66, 63);
-    border-radius: 0px 0px 50px 50px;
+    height: 100vh;
+    background-color: rgb(223, 174, 101);
+    border-radius: 50px 50px 50px 50px;
     padding: 10px;
 }    
 .flex-container1>div{
-    background-color: rgb(209, 176, 139);
+    background-color: rgb(95, 216, 216);
     margin: 15px;
+    
     border: solid black 3px;
     font-size: 24px;
     border-radius: 50px 50px 50px 50px;
-    overflow: auto;
-    scrollbar-color: rgb(153, 153, 141) rgb(158, 158, 172);
+  
     align-items:center;
     flex-grow:1;
     width: 33%;
 }
-.flex-container2{
-  display:flex;
-  justify-content: space-between;
-  text-align: center;
-  
-  
-  background-color: rgb(68, 66, 63);
-  border-radius: 0px 0px 50px 50px;
-  padding: 10px;
-}    
-.flex-container2>div{
-  background-color: rgb(209, 176, 139);
-  margin: 0px;
-  
-  font-size: 24px;
-  border-radius: 50px 50px 50px 50px;
-  overflow: auto;
-  scrollbar-color: rgb(153, 153, 141) rgb(158, 158, 172);
-  align-items:center;
-  flex-grow:1;
-  width: 50%;
-}
-
 
 .flex-container{
   display:flex;
   justify-content: space-evenly;
-  background-color: rgb(68, 66, 63);
-  border-radius: 50px 50px 0px 0px;
+  background-color: rgb(151, 21, 211);
+  border-radius: 50px 50px 50px 50px;
   padding: 10px;
   
 }  
 .flex-container>div{
-  background-color:  rgb(209, 176, 139);
+  background-color: rgb(95, 216, 216);
   margin: 10px;
   padding: 10px;
   font-size: 24px;
   border-radius: 50px 50px 50px 50px;
   padding: 10px;
-  
+
 }
 .title {
       color: black;
@@ -172,33 +126,18 @@ div.a{
       display: inline-block;
       flex-grow: 1;
       color: rgb(7, 3, 3);
-      background-color: rgb(57, 61, 57);
+      background-color: rgb(68, 209, 75);
       text-align: center;
       cursor: pointer;
-      width: 15%;
+      width: 25%;
       border-radius: 50px 50px 50px 50px;
       padding:5px 5px 5px 5px;
       
 } 
-
+A1{
+  justify-content: right;
+}
 .button:hover {
       background-color: rgb(45, 156, 114);
-}
-
-.contact>div{
-      background-color: rgb(209, 176, 139);
-  
-  
-}
-.new{
-  text-align: center;
-  justify-content:center;
-  margin-left: 10px;
-}
-#featureimage{
-  
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;
 }
 
